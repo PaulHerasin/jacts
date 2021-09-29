@@ -5,6 +5,7 @@ import teamImg2 from "../../assets/images/team-img2.png";
 import teamImg3 from "../../assets/images/team-img3.png";
 import teamImg4 from "../../assets/images/team-img4.png";
 import teamImg5 from "../../assets/images/team-img5.png";
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 export const Team = () => (
@@ -32,7 +33,7 @@ export const Team = () => (
               <div><img src={teamImg2} alt="" /></div>
             </div>
             <div className="team__item-title">Anna Pumpkin</div>
-            <div className="team__item-position"> Artist, see <a href="/">portfolio</a></div>
+            <div className="team__item-position"> Artist, see <Link to="/">portfolio</Link></div>
             <div className="team__item-info">
               <p>Body: <strong>Ghost 1%</strong></p>
               <p>Hat:<strong>Long Stalk 6.8%</strong> </p>

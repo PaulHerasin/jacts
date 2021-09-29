@@ -3,6 +3,7 @@ import "./Main-screen.scss";
 import mainBg from "../../assets/images/main-bg.png";
 import mainImg from "../../assets/images/main-screen-img.png";
 
+import { HashLink as Link } from 'react-router-hash-link';
 
 export const MainScreen = () => {
   return (
@@ -16,7 +17,7 @@ export const MainScreen = () => {
               <div className="main-screen__content content">
                 <p>Get ready for a fright with these generative jack-o’-lanterns</p>
               </div>
-              <a href="/product" className="main-screen__btn btn">Connect your wallet</a>
+              <Link to="/product" className="main-screen__btn btn">Connect your wallet</Link>
               <div className="main-screen__value"><span>145</span> / 10 000</div>
               <div className="main-screen__available">NFTs are available</div>
             </div>
