@@ -1,0 +1,14 @@
+@import './vars.scss';
+
+.content {
+	p {
+		font-weight: normal;
+		font-size: 1.8rem;
+		line-height: 144%;
+		color: #ffffff;
+
+		& + p {
+			margin-top: 2rem;
+		}
+	}
+}
