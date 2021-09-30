@@ -7,6 +7,10 @@
 		line-height: 144%;
 		color: #ffffff;
 
+		a {
+			color: $secondary-c;
+		}
+
 		& + p {
 			margin-top: 2rem;
 		}

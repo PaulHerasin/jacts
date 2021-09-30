@@ -36,7 +36,7 @@ export const Roadmap = () => (
             <div className="roadmap__item">
               <div className="roadmap__number">04<span></span></div>
               <div className="roadmap__content content">
-                <p>Place a small number of jack-o’-lanterns for sale for those who plan to make pumpkin pie.</p>
+                <p>Limited number of jack-o’-lanterns on sale for those who plan to make pumpkin pie</p>
               </div>
             </div>
             <div className="roadmap__item">
@@ -54,7 +54,7 @@ export const Roadmap = () => (
             <div className="roadmap__item">
               <div className="roadmap__number">07<span></span></div>
               <div className="roadmap__content content">
-                <p>Place a small number of pumpkin pies for sale for those who overeat on Thanksgiving.</p>
+                <p>Limited number of generative pumpkin pies on sale for those who overeat on Thanksgiving.</p>
               </div>
             </div>
           </div>

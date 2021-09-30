@@ -14,7 +14,7 @@ export const About = () => (
           <div class="about__small-title small-title">ABOUT</div>
           <h2 class="about__simple-title simple-title">Halloween Jacks</h2>
           <div class="about__content content">
-            <p>The Sad Bears needed a pick me up, so 7Labs is releasing this special collection of Halloween jack-o'-lanterns to reward all your sad FOMO.</p>
+            <p>The  <a href="http://www.sadbearsnft.com">Sad Bears</a> needed a pick me up, so <a href="https://twitter.com/7labsNFT">7Labs</a>  is releasing this special collection of Halloween jack-o'-lanterns. </p>
             <p>The jacks will be airdropped into your Sad Bear wallet automatically. You do not need to do anything. One jack for each Sad Bear in your wallet. </p>
             <p>An additional 2000 jacks will go on sale for 0.5 SOL for those who want more pumpkin for their pumpkin pie this fall season</p>
           </div>

@@ -17,9 +17,10 @@ export const MainScreen = () => {
               <div className="main-screen__content content">
                 <p>Get ready for a fright with these generative jack-o’-lanterns</p>
               </div>
-              <Link to="/product" className="main-screen__btn btn">Connect your wallet</Link>
-              <div className="main-screen__value"><span>145</span> / 10 000</div>
-              <div className="main-screen__available">NFTs are available</div>
+              {/* <Link to="/product" className="main-screen__btn btn">Connect your wallet</Link> */}
+              {/* <div className="main-screen__value"><span>145</span> / 10 000</div> */}
+              {/* <div className="main-screen__available">NFTs are available</div> */}
+              <div className="main-screen__available">NFT Drop Coming Soon</div>
             </div>
             <div className="main-screen__img-wrap img-wrap">
               <div><img src={mainImg} alt="" /></div>
