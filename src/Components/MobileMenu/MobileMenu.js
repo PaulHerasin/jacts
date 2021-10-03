@@ -30,8 +30,8 @@ export const MobileMenu = (props) => {
         <nav className="mobile-menu__nav">
           <ul className="mobile-menu__nav-list">
             <li className="mobile-menu__nav-item"><Link className="mobile-menu__nav-link" onClick={() => props.closeMenu(false)} smooth to="/#about-ar">About</Link></li>
-            <li className="mobile-menu__nav-item"><Link className="mobile-menu__nav-link" onClick={() => props.closeMenu(false)} smooth to="/#rarity-ar">Roadmap</Link></li>
-            <li className="mobile-menu__nav-item"><Link className="mobile-menu__nav-link" onClick={() => props.closeMenu(false)} smooth to="/#roadmap-ar">Rarity</Link></li>
+            <li className="mobile-menu__nav-item"><Link className="mobile-menu__nav-link" onClick={() => props.closeMenu(false)} smooth to="/#roadmap-ar">Roadmap</Link></li>
+            <li className="mobile-menu__nav-item"><Link className="mobile-menu__nav-link" onClick={() => props.closeMenu(false)} smooth to="/#rarity-ar">Rarity</Link></li>
             <li className="mobile-menu__nav-item"><Link className="mobile-menu__nav-link" onClick={() => props.closeMenu(false)} smooth to="/#team-ar">Team </Link></li>
           </ul>
         </nav>

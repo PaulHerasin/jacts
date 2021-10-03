@@ -35,11 +35,11 @@ export const Team = () => (
             <div className="team__item-title">Anna Pumpkin</div>
             <div className="team__item-position"> Artist, see <Link to="/">portfolio</Link></div>
             <div className="team__item-info">
-              <p>Body: <strong>Ghost 1%</strong></p>
-              <p>Hat:<strong>Long Stalk 6.8%</strong> </p>
-              <p>Eyes:<strong>Evil Jack 3.5%</strong> </p>
-              <p>Nose:<strong>Narrow Nostrils 1.9%</strong> </p>
-              <p>Mouth:<strong>Hungry Jack 0.3%</strong></p>
+              <p>Body: <strong>Musquee 30%</strong></p>
+              <p>Hat:<strong>Scarlet Witch 0.4%</strong> </p>
+              <p>Eyes:<strong>Mystical 1.2%</strong> </p>
+              <p>Nose:<strong>Worm-Hole 1.9%</strong> </p>
+              <p>Mouth:<strong>Sewn 0.3% </strong></p>
             </div>
           </div>
           <div className="team__item">
@@ -49,11 +49,11 @@ export const Team = () => (
             <div className="team__item-title">Blue Pumpkin</div>
             <div className="team__item-position">CTO</div>
             <div className="team__item-info">
-              <p>Body: <strong>Ghost 1%</strong></p>
-              <p>Hat:<strong>Long Stalk 6.8%</strong> </p>
-              <p>Eyes:<strong>Evil Jack 3.5%</strong> </p>
-              <p>Nose:<strong>Narrow Nostrils 1.9%</strong> </p>
-              <p>Mouth:<strong>Hungry Jack 0.3%</strong></p>
+              <p>Body: <strong>Charisma 10%</strong></p>
+              <p>Hat:<strong>Angel 0.4%</strong> </p>
+              <p>Eyes:<strong>Evil Monster 3.5%</strong> </p>
+              <p>Nose:<strong>Oval 3.5%</strong> </p>
+              <p>Mouth:<strong>Shirty Grin 1% </strong></p>
             </div>
           </div>
           <div className="team__item">
@@ -64,10 +64,10 @@ export const Team = () => (
             <div className="team__item-position">Marketing</div>
             <div className="team__item-info">
               <p>Body: <strong>Ghost 1%</strong></p>
-              <p>Hat:<strong>Long Stalk 6.8%</strong> </p>
-              <p>Eyes:<strong>Evil Jack 3.5%</strong> </p>
-              <p>Nose:<strong>Narrow Nostrils 1.9%</strong> </p>
-              <p>Mouth:<strong>Hungry Jack 0.3%</strong></p>
+              <p>Hat:<strong>Deer Horns 2%</strong> </p>
+              <p>Eyes:<strong>Focused 3.5%</strong> </p>
+              <p>Nose:<strong>Power Button 0.95%</strong> </p>
+              <p>Mouth:<strong>Great Disappointment 3.5%</strong></p>
             </div>
           </div>
           <div className="team__item">
@@ -77,11 +77,11 @@ export const Team = () => (
             <div className="team__item-title">Kosher Pumpkin</div>
             <div className="team__item-position">Marketing</div>
             <div className="team__item-info">
-              <p>Body: <strong>Ghost 1%</strong></p>
-              <p>Hat:<strong>Long Stalk 6.8%</strong> </p>
+              <p>Body: <strong>Hijinks 59%</strong></p>
+              <p>Hat:<strong>Bowler Hat 2%</strong> </p>
               <p>Eyes:<strong>Evil Jack 3.5%</strong> </p>
-              <p>Nose:<strong>Narrow Nostrils 1.9%</strong> </p>
-              <p>Mouth:<strong>Hungry Jack 0.3%</strong></p>
+              <p>Nose:<strong>Keyhole 0.2%</strong> </p>
+              <p>Mouth:<strong>Joyful Child 3.5%</strong></p>
             </div>
           </div>
           <div className="team__item team__item--hide"></div>

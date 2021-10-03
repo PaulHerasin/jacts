@@ -6,18 +6,19 @@ import roadmapImg from "../../assets/images/roadmap-img.png";
 export const Roadmap = () => (
   <section className="roadmap" >
     <div className="roadmap__container">
-      <div className="roadmap__wrap" id="roadmap-ar">
+      <div className="roadmap__wrap" >
         <div className="roadmap__left">
           <div className="img-wrap">
             <div><img src={roadmapImg} alt="" /></div>
           </div>
         </div>
-        <div className="roadmap__right">
+        <div className="roadmap__right" id="roadmap-ar">
           <h2 className="roadmap__simple-title simple-title">Roadmap</h2>
           <div className="roadmap__list">
             <div className="roadmap__item roadmap__item--img">
               <div className="roadmap__number">01<span></span></div>
               <div className="roadmap__content content">
+                
                 <p>Sell Sad Bears.</p>
               </div>
             </div>
