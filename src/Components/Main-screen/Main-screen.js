@@ -3,7 +3,7 @@ import "./Main-screen.scss";
 import mainBg from "../../assets/images/main-bg.png";
 import mainImg from "../../assets/images/main-screen-img.png";
 
-import { HashLink as Link } from 'react-router-hash-link';
+// import { HashLink as Link } from 'react-router-hash-link';
 
 export const MainScreen = () => {
   return (
@@ -13,7 +13,7 @@ export const MainScreen = () => {
         <div className="center-wrap">
           <div className="main-screen__wrap">
             <div className="main-screen__left">
-              <h1 className="main-screen__title">Jack-o- Lanterns</h1>
+              <h1 className="main-screen__title">PUMPKIN JACKS</h1>
               <div className="main-screen__content content">
                 <p>Get ready for a fright with these generative jack-o’-lanterns</p>
               </div>

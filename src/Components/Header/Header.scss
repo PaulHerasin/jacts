@@ -76,6 +76,15 @@
 	}
 
 	&__logo {
+		font-size: 2.4rem;
+		line-height: 2.6rem;
+		font-weight: normal;
+		color: #ffffff;
+
+		span {
+			font-weight: 900;
+		}
+
 		@media screen and (max-width: $large_tablet) {
 			order: 1;
 		}

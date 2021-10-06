@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Header.scss"
-import logo from "../../assets/images/logo.svg";
+// import logo from "../../assets/images/logo.svg";
 import { HashLink as Link } from 'react-router-hash-link';
 import MobileMenu from '../MobileMenu/MobileMenu';
 
@@ -13,7 +13,11 @@ export const Header = () => {
     <>
       <header className="header">
         <div className="center-wrap">
-          <div className="header__wrap"><Link className="header__logo" smooth to="/#main-screen"><img src={logo} alt="" /></Link>
+          <div className="header__wrap">
+            <Link className="header__logo" smooth to="/#main-screen">
+              {/* <img src={logo} alt="" />  */}
+              <span>7L</span> Pumpkin Jacks
+            </Link>
             <nav className="header__nav mobile--hide">
               <ul className="header__nav-list">
                 <li className="header__nav-item"><Link className="header__nav-link" smooth to="/#about-ar">About</Link></li>
