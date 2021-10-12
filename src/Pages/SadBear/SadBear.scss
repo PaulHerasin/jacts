@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@import '../../Styles/vars.scss';
 
 .SadBeader {
 	font-size: 100vw / (1440/10);
+
+	@media screen and (max-width: $large_tablet) {
+		font-size: 80.5%;
+	}
+
+	@media screen and (max-width: $large_mobile) {
+		font-size: 100vw / (480 /10);
+	}
 }
 
 .sad-bear {
@@ -36,11 +45,22 @@
 		padding-bottom: 11rem;
 		position: relative;
 
+		@media screen and (max-width: $large_tablet) {
+			padding: 10rem 2rem 0;
+		}
+
 		&__wrap {
 			padding-left: 16.7rem;
 			display: flex;
 			justify-content: space-between;
 			align-items: flex-end;
+
+			@media screen and (max-width: $large_tablet) {
+				padding-left: 0;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: flex-start;
+			}
 		}
 
 		&__text {
@@ -48,6 +68,11 @@
 			width: 100%;
 			text-align: left;
 			color: #fff;
+
+			@media screen and (max-width: $large_tablet) {
+				margin-bottom: 4rem;
+				max-width: 100%;
+			}
 		}
 
 		&__title {
@@ -55,12 +80,21 @@
 			font-size: 9rem;
 			color: #fff;
 			margin-bottom: 0;
+
+			@media screen and (max-width: $large_tablet) {
+				font-size: 6rem;
+			}
 		}
 
 		&__description {
 			font-family: 'Hiruko';
 			font-size: 4.6rem;
 			margin-bottom: 2rem;
+
+			@media screen and (max-width: $large_tablet) {
+				font-size: 3.5rem;
+				margin-bottom: 1rem;
+			}
 		}
 
 		&__content {
@@ -68,6 +102,11 @@
 			text-align: justify;
 			letter-spacing: -0.13rem;
 			line-height: 4rem;
+
+			@media screen and (max-width: $large_tablet) {
+				font-size: 1.8rem;
+				line-height: 3rem;
+			}
 
 			b {
 				font-family: 'Hiruko';
@@ -108,6 +147,11 @@
 			background-position: bottom center;
 			background-repeat: no-repeat;
 			background-size: contain;
+
+			@media screen and (max-width: $large_tablet) {
+				height: 33rem;
+				max-width: 100%;
+			}
 		}
 	}
 
@@ -117,6 +161,12 @@
 			justify-content: space-between;
 			position: relative;
 			padding: 12.4rem 4rem 5.3rem 16.8rem;
+
+			@media screen and (max-width: $large_tablet) {
+				padding: 3rem 2rem 2rem;
+				flex-direction: column;
+				justify-content: flex-start;
+			}
 		}
 
 		&__left-arrow {
@@ -125,6 +175,13 @@
 			justify-content: center;
 			margin-top: 12rem;
 			height: 22rem;
+
+			@media screen and (max-width: $large_tablet) {
+				margin-top: 0;
+				width: 100%;
+				height: 13rem;
+				margin-bottom: 2rem;
+			}
 		}
 
 		&__left-text {
@@ -138,6 +195,15 @@
 			color: #00ffff;
 			max-width: 71.1rem;
 			text-transform: uppercase;
+
+			@media screen and (max-width: $large_tablet) {
+				position: static;
+				text-align: center;
+				font-size: 3.6rem;
+				max-width: 40rem;
+				line-height: 5rem;
+				margin: 0 auto;
+			}
 		}
 
 		&__text {
@@ -147,12 +213,20 @@
 			position: relative;
 			z-index: 9;
 			color: #fff;
+
+			@media screen and (max-width: $large_tablet) {
+				width: 100%;
+			}
 		}
 
 		&__title {
 			font-family: 'Hiruko';
 			font-size: 4.6rem;
 			margin-bottom: 4.1rem;
+
+			@media screen and (max-width: $large_tablet) {
+				margin-bottom: 1rem;
+			}
 		}
 
 		&__content {
@@ -161,11 +235,21 @@
 			line-height: 4rem;
 			letter-spacing: -1.3px;
 			margin-bottom: 6.6rem;
+
+			@media screen and (max-width: $large_tablet) {
+				margin-bottom: 2rem;
+				font-size: 1.8rem;
+				line-height: 3rem;
+			}
 		}
 
 		&__right-arrow {
 			height: 30rem;
 			margin: 0 auto;
+
+			@media screen and (max-width: $large_tablet) {
+				height: 13rem;
+			}
 		}
 	}
 
@@ -179,6 +263,11 @@
 			border-radius: 0 4.9rem 4.9rem 0;
 			background: rgba(196, 196, 196, 0.5);
 			width: calc(100% - 5.7rem);
+
+			@media screen and (max-width: $large_tablet) {
+				padding: 5rem 3rem 3rem 0;
+				width: calc(100% - 4rem);
+			}
 		}
 
 		&__container-wrap {
@@ -190,11 +279,20 @@
 			width: 100%;
 			display: flex;
 			justify-content: flex-end;
+
+			@media screen and (max-width: $large_tablet) {
+				padding: 3rem 3rem 3rem 0;
+				justify-content: center;
+			}
 		}
 
 		&__info {
 			width: 100%;
 			max-width: 51rem;
+
+			@media screen and (max-width: $large_tablet) {
+				max-width: 30rem;
+			}
 		}
 
 		&__title {
@@ -207,6 +305,12 @@
 			font-family: 'Hiruko';
 			margin-bottom: 10.5rem;
 			text-align: center;
+
+			@media screen and (max-width: $large_tablet) {
+				font-size: 5rem;
+				line-height: 100%;
+				margin-bottom: 5rem;
+			}
 		}
 
 		&__links {
@@ -234,6 +338,12 @@
 			position: absolute;
 			top: calc(100% - 5rem);
 			right: 35.5rem;
+
+			@media screen and (max-width: $large_tablet) {
+				height: 15rem;
+				right: 20rem;
+				top: calc(100% - 3rem);
+			}
 		}
 
 		&__bear {
@@ -245,6 +355,10 @@
 			width: 100%;
 			object-fit: contain;
 			z-index: 1;
+
+			@media screen and (max-width: $large_tablet) {
+				display: none;
+			}
 		}
 	}
 
@@ -258,6 +372,10 @@
 		align-items: flex-end;
 		padding-bottom: 31rem;
 
+		@media screen and (max-width: $large_tablet) {
+			padding-bottom: 8rem;
+		}
+
 		&__container {
 			padding: 11.3rem 30rem 9.7rem 37rem;
 			border-top: 1rem solid rgba(255, 255, 255, 0.75);
@@ -269,11 +387,20 @@
 			align-items: center;
 			justify-content: center;
 			position: relative;
+
+			@media screen and (max-width: $large_tablet) {
+				width: calc(100% - 5rem);
+				padding: 4rem;
+			}
 		}
 
 		&__text {
 			font-size: 7.2rem;
 			line-height: 4rem;
+
+			@media screen and (max-width: $large_tablet) {
+				font-size: 4rem;
+			}
 		}
 
 		&__title {
@@ -281,6 +408,13 @@
 			font-size: 6rem;
 			margin-bottom: 2.5rem;
 			margin-right: 31.5rem;
+
+			@media screen and (max-width: $large_tablet) {
+				text-align: center;
+				margin: 0 auto 2rem;
+				font-size: 5rem;
+				line-height: 100%;
+			}
 		}
 
 		&__arrow {
@@ -289,11 +423,19 @@
 			right: 24.3rem;
 			height: 22rem;
 			object-fit: contain;
+
+			@media screen and (max-width: $large_tablet) {
+				display: none;
+			}
 		}
 	}
 
 	.team {
 		padding-bottom: 28.7rem;
+
+		@media screen and (max-width: $large_tablet) {
+			padding: 0 2rem 8rem;
+		}
 
 		&__title {
 			font-family: 'Hiruko';
@@ -303,27 +445,52 @@
 			text-transform: uppercase;
 			margin-bottom: 9rem;
 			text-align: center;
+
+			@media screen and (max-width: $large_tablet) {
+				font-size: 5rem;
+				line-height: 100%;
+				margin-bottom: 6rem;
+			}
 		}
 
 		&__wrap {
 			position: relative;
-			padding: 10rem 7.8rem 1rem 4.9rem;
+			padding: 10rem 7.8rem 8.5rem 4.9rem;
 			background: rgba(255, 255, 255, 0.15);
 			border-radius: 4.9rem;
 			max-width: 127.4rem;
 			width: 100%;
 			margin: 0 auto;
+
+			@media screen and (max-width: $large_tablet) {
+				padding: 8rem 3rem 4rem;
+			}
 		}
 
 		&__member {
 			display: flex;
 			margin-bottom: 7.5rem;
 
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+
+			@media screen and (max-width: $large_tablet) {
+				flex-direction: column;
+				align-items: center;
+				text-align: center;
+			}
+
 			&-avatar {
 				margin-right: 9.4rem;
 				object-fit: contain;
 				width: 100%;
 				max-width: 32.3rem;
+
+				@media screen and (max-width: $large_tablet) {
+					margin-right: 0rem;
+					margin-bottom: 5rem;
+				}
 			}
 
 			&-wrapper {
@@ -337,6 +504,11 @@
 				line-height: 4.8rem;
 				color: #fff;
 				margin-bottom: 0;
+
+				@media screen and (max-width: $large_tablet) {
+					font-size: 3.5rem;
+					list-style: 100%;
+				}
 			}
 
 			&-role {
@@ -345,6 +517,11 @@
 				line-height: 4rem;
 				margin-bottom: 0;
 				color: #00ffff;
+
+				@media screen and (max-width: $large_tablet) {
+					font-size: 3.5rem;
+					list-style: 100%;
+				}
 			}
 
 			&-description {
@@ -353,6 +530,11 @@
 				line-height: 3.6rem;
 				color: #fff;
 				margin-bottom: 0;
+
+				@media screen and (max-width: $large_tablet) {
+					font-size: 2.3rem;
+					list-style: 100%;
+				}
 			}
 		}
 
@@ -361,10 +543,18 @@
 			right: 29.6rem;
 			top: 100%;
 			height: 22rem;
+
+			@media screen and (max-width: $large_tablet) {
+				display: none;
+			}
 		}
 	}
 
 	.faq {
+		@media screen and (max-width: $large_tablet) {
+			padding: 0 2rem;
+		}
+
 		&__wrap {
 			border: 1rem solid #fff;
 			border-radius: 5rem;
@@ -372,6 +562,10 @@
 			margin: 0 auto;
 			max-width: 127rem;
 			width: 100%;
+
+			@media screen and (max-width: $large_tablet) {
+				padding: 4rem 2.5rem;
+			}
 		}
 
 		&__title {
@@ -381,6 +575,11 @@
 			color: #fff;
 			margin-bottom: 3rem;
 			text-align: center;
+
+			@media screen and (max-width: $large_tablet) {
+				font-size: 5rem;
+				line-height: 100%;
+			}
 		}
 
 		&__question {
@@ -389,12 +588,21 @@
 			line-height: 6.2rem;
 			color: #fff;
 			margin-bottom: 1rem;
+
+			@media screen and (max-width: $large_tablet) {
+				font-size: 2.3rem;
+				line-height: 130%;
+			}
 		}
 
 		&__answer-content {
 			height: 100%;
 			overflow: hidden;
 			margin-bottom: 2rem;
+
+			@media screen and (max-width: $large_tablet) {
+				margin-bottom: 3rem;
+			}
 
 			&:last-of-type {
 				margin-bottom: 0;
@@ -406,10 +614,10 @@
 			font-size: 3.6rem;
 			line-height: 6.2rem;
 			color: #00ffff;
-			margin-bottom: 5rem;
 
-			&:last-of-type {
-				margin-bottom: 0;
+			@media screen and (max-width: $large_tablet) {
+				font-size: 2.3rem;
+				line-height: 130%;
 			}
 		}
 
@@ -418,6 +626,11 @@
 			font-size: 3.6rem;
 			line-height: 6.2rem;
 			color: #00ffff;
+
+			@media screen and (max-width: $large_tablet) {
+				font-size: 2.3rem;
+				line-height: 130%;
+			}
 
 			li {
 				position: relative;
@@ -433,475 +646,12 @@
 					height: 1rem;
 					border-radius: 50%;
 					background-color: #00ffff;
+
+					@media screen and (max-width: $large_tablet) {
+						top: 0.6rem;
+					}
 				}
 			}
 		}
 	}
 }
-
-// @media (max-width: 1420px) {
-// 	.sad-bear {
-// 		.main-section {
-// 			.main-title-wrapper {
-// 				position: relative;
-
-// 				.main-title {
-// 					z-index: 1;
-// 					margin-left: 100px;
-// 				}
-
-// 				.bear-image-section {
-// 					margin-top: 200px;
-// 					background-position: bottom;
-// 				}
-// 			}
-// 		}
-
-// 		.connect-section {
-// 			.connect-bear {
-// 				width: 550px;
-// 				height: 550px;
-// 				object-fit: contain;
-// 				z-index: 1;
-// 			}
-
-// 			.connect-link {
-// 				.connect-group {
-// 					.link-icon {
-// 						width: 200px;
-// 						padding: 0 30px;
-// 					}
-// 				}
-// 			}
-// 		}
-
-// 		.team-section-wrapper {
-// 			.team-arrow {
-// 				transform: translateY(-30%);
-// 			}
-// 		}
-// 	}
-// }
-
-// @media (max-width: 1200px) {
-// 	.sad-bear {
-// 		.main-section {
-// 			.main-title-wrapper {
-// 				.bear-image-section {
-// 					width: 550px;
-// 				}
-// 			}
-// 		}
-
-// 		.connect-section {
-// 			.connect-bear {
-// 				display: none;
-// 			}
-
-// 			.connect-link {
-// 				.connect-group {
-// 					.link-icon {
-// 						width: 250px;
-// 						padding: 0 30px;
-// 					}
-// 				}
-// 			}
-// 		}
-
-// 		.team-section-wrapper {
-// 			.team-wrapper {
-// 				padding: 100px 50px 10px 20px;
-// 			}
-
-// 			.team-arrow {
-// 				transform: translateY(-20%);
-// 			}
-// 		}
-// 	}
-// }
-
-// @media (max-width: 992px) {
-// 	.sad-bear {
-// 		.main-section {
-// 			margin-top: 50px;
-// 			margin-bottom: 0;
-
-// 			.main-title-wrapper {
-// 				padding: 0 200px 0 100px;
-// 				margin-bottom: 0;
-
-// 				.main-title {
-// 					margin-left: 0;
-// 					width: auto;
-
-// 					.connect-button {
-// 						margin-bottom: 40px;
-// 					}
-
-// 					.counter-placeholder {
-// 						font-size: 65px;
-// 					}
-// 				}
-
-// 				.bear-image-section {
-// 					margin-bottom: 0;
-// 					position: absolute;
-// 					right: 0;
-// 					top: 0;
-// 					z-index: 0;
-// 					width: 350px;
-// 					height: 900px;
-// 					background-position: bottom;
-// 				}
-// 			}
-
-// 			.second-cloud-wrapper {
-// 				.road-map-wrapper {
-// 					display: block;
-// 					padding: 0 50px;
-
-// 					.road-left-arrow {
-// 						width: 60%;
-// 						height: 150px;
-// 					}
-
-// 					.road-map-content-wrapper {
-// 						width: 100%;
-// 						padding: 0;
-
-// 						.road-map-content {
-// 							margin-bottom: 0;
-// 						}
-
-// 						.roadmap-arrow {
-// 							height: 200px;
-// 							margin-left: 200px;
-// 						}
-// 					}
-// 				}
-// 			}
-// 		}
-
-// 		.connect-section {
-// 			height: 500px;
-
-// 			.midline {
-// 				height: 370px;
-// 			}
-
-// 			.connect-link {
-// 				.connect-link-title {
-// 					margin-bottom: 50px;
-// 				}
-
-// 				.connect-group {
-// 					.link-icon {
-// 						width: 220px;
-// 						padding: 0 30px;
-// 					}
-// 				}
-// 			}
-// 		}
-
-// 		.rarities-section {
-// 			height: 400px;
-// 			margin-left: 50px;
-
-// 			.midline {
-// 				height: 200px;
-
-// 				.coming-soon {
-// 					font-size: 60px;
-// 				}
-// 			}
-
-// 			.rarities-arrow {
-// 				right: 150px;
-// 				height: 200px;
-// 				transform: translateY(85%);
-// 			}
-// 		}
-
-// 		.team-section-wrapper {
-// 			.team-wrapper {
-// 				padding: 50px;
-
-// 				.team-member {
-// 					display: block;
-// 					text-align: center;
-// 					margin-bottom: 10px;
-
-// 					.member-avatar {
-// 						margin-right: 0;
-// 						padding: 100px;
-// 					}
-
-// 					.member-wrapper {
-// 						text-align: center;
-
-// 						.name {
-// 							font-family: 'Hiruko';
-// 							font-size: 48px;
-// 							line-height: 48px;
-// 							color: #fff;
-// 							margin-bottom: 0;
-// 						}
-
-// 						.role {
-// 							font-family: 'Hiruko';
-// 							font-size: 40px;
-// 							line-height: 40px;
-// 							margin-bottom: 0;
-// 							color: #00ffff;
-// 						}
-
-// 						.description {
-// 							font-family: 'Hiruko';
-// 							font-size: 36px;
-// 							line-height: 36px;
-// 							color: #fff;
-// 							margin-bottom: 0;
-// 						}
-// 					}
-// 				}
-// 			}
-
-// 			.team-arrow {
-// 				margin-left: 300px;
-// 			}
-// 		}
-// 	}
-// }
-
-// @media (max-width: 768px) {
-// 	.sad-bear {
-// 		.main-section {
-// 			margin-top: 0;
-
-// 			.main-title-wrapper {
-// 				display: block;
-// 				padding: 0 50px;
-
-// 				.main-title {
-// 					padding-right: 50px;
-
-// 					.title {
-// 						line-height: 90px;
-// 					}
-
-// 					.content {
-// 						font-size: 18px;
-// 						line-height: 30px;
-// 					}
-
-// 					.connect-button {
-// 						font-size: 22px;
-// 						margin-bottom: 0;
-// 					}
-
-// 					.counter-placeholder {
-// 						font-size: 36px;
-// 					}
-// 				}
-
-// 				.bear-image-section {
-// 					position: unset;
-// 					width: auto;
-// 					height: 330px;
-// 					background-position: bottom;
-// 					margin: 20px auto 0;
-// 				}
-// 			}
-
-// 			.second-cloud-wrapper {
-// 				.road-map-wrapper {
-// 					.road-left-arrow {
-// 						width: 100%;
-// 					}
-
-// 					.road-map-content-wrapper {
-// 						.road-map-content {
-// 							font-size: 18px;
-// 						}
-
-// 						.roadmap-arrow {
-// 							margin-left: 100px;
-// 						}
-// 					}
-// 				}
-// 			}
-// 		}
-
-// 		.connect-section {
-// 			padding: 0;
-// 			margin-bottom: 200px;
-// 			margin-right: 50px;
-
-// 			.short-arrow {
-// 				right: 250px;
-// 			}
-
-// 			.connect-link {
-// 				.connect-group {
-// 					.link-icon {
-// 						width: 200px;
-// 						padding: 0 30px;
-// 					}
-// 				}
-// 			}
-// 		}
-
-// 		.rarities-section {
-// 			display: block;
-// 			text-align: center;
-// 			height: 280px;
-// 			margin-left: 0;
-
-// 			.midline {
-// 				top: 100px;
-// 				left: 50px;
-// 				height: 150px;
-
-// 				.coming-soon {
-// 					font-size: 48px;
-// 				}
-// 			}
-
-// 			.rarities-arrow {
-// 				display: none;
-// 			}
-
-// 			.rarities-title {
-// 				position: unset;
-// 			}
-// 		}
-
-// 		.team-section-wrapper {
-// 			margin-bottom: 100px;
-
-// 			.team-wrapper {
-// 				margin: 0 25px;
-// 				padding: 50px 10px;
-
-// 				.team-member {
-// 					margin-bottom: 0;
-
-// 					.member-avatar {
-// 						padding: 100px;
-// 					}
-
-// 					.member-wrapper {
-// 						.name {
-// 							font-size: 35px;
-// 						}
-
-// 						.role {
-// 							font-size: 35px;
-// 						}
-
-// 						.description {
-// 							font-size: 23px;
-// 						}
-// 					}
-// 				}
-// 			}
-
-// 			.team-arrow {
-// 				display: none;
-// 			}
-// 		}
-
-// 		.FAQ-section {
-// 			margin: 0 25px;
-// 			padding: 40px 10px 15px 10px;
-
-// 			.question {
-// 				font-size: 23px;
-// 				margin-bottom: 10px;
-// 			}
-
-// 			.answer-content {
-// 				.answer {
-// 					font-size: 23px;
-// 					margin-bottom: 30px;
-// 				}
-
-// 				.child-answer {
-// 					font-size: 23px;
-// 				}
-// 			}
-// 		}
-// 	}
-// }
-
-// @media (max-width: 550px) {
-// 	.sad-bear {
-// 		.main-section {
-// 			.main-title-wrapper {
-// 				.main-title {
-// 					.connect-button {
-// 						font-size: 16px;
-// 						margin-bottom: 0;
-// 					}
-
-// 					.counter-placeholder {
-// 						font-size: 33px;
-// 					}
-// 				}
-// 			}
-// 		}
-
-// 		.connect-section {
-// 			height: 370px;
-// 			margin-right: 30px;
-
-// 			.midline {
-// 				height: 320px;
-// 				top: 30px;
-// 				right: 40px;
-// 			}
-
-// 			.short-arrow {
-// 				right: 150px;
-// 				height: 200px;
-// 				transform: translateY(86%);
-// 			}
-
-// 			.connect-link {
-// 				padding-right: 20px;
-
-// 				.connect-link-title {
-// 					margin-bottom: 30px;
-// 					font-size: 48px;
-// 				}
-
-// 				.connect-group {
-// 					.link-icon {
-// 						width: 138px;
-// 						padding: 0 20px;
-// 					}
-// 				}
-// 			}
-// 		}
-
-// 		.rarities-section {
-// 			.midline {
-// 				left: 40px;
-
-// 				.coming-soon {
-// 					font-size: 40px;
-// 				}
-// 			}
-// 		}
-
-// 		.team-section-wrapper {
-// 			.team-wrapper {
-// 				.team-member {
-// 					.member-avatar {
-// 						padding: 50px;
-// 					}
-// 				}
-// 			}
-// 		}
-// 	}
-// }
