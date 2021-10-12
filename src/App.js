@@ -1,21 +1,20 @@
 import React from 'react';
-import './App.css';
-import Home from './Pages/Home';
-import ProductPage from './Pages/ProductPage';
+import Home from './Pages/Jacts/Home';
+import ProductPage from './Pages/Jacts/ProductPage';
+import SadBear from './Pages/SadBear/SadBear';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
 
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Switch>
-          <Route path="/" exact component={Home}></Route>
-          <Route path="/product" component={ProductPage}></Route>
-        </Switch>
-      </BrowserRouter>
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" exact component={Home}></Route>
+        <Route path="/product" component={ProductPage}></Route>
+        <Route path="/SadBear" component={SadBear}></Route>
+      </Switch>
+    </BrowserRouter>
   );
 }
 
