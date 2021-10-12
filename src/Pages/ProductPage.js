@@ -4,10 +4,10 @@ import Product from '../Components/Product/Product';
 
 
 export const ProductPage = () => (
-  <>
+  <main className="jacks">
     <Header />
     <Product />
-  </>
+  </main>
 )
 
 

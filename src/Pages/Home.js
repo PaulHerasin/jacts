@@ -8,14 +8,14 @@ import MainScreen from '../Components/Main-screen/Main-screen';
 import Team from '../Components/Team/Team';
 
 export const Home = () => (
-  <>
+  <main className="jacks">
     <Header />
     <MainScreen />
     <About />
     <Rarity />
     <Roadmap />
     <Team />
-  </>
+  </main>
 )
 
 

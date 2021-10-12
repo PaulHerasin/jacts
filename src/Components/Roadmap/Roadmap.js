@@ -18,7 +18,7 @@ export const Roadmap = () => (
             <div className="roadmap__item roadmap__item--img">
               <div className="roadmap__number">01<span></span></div>
               <div className="roadmap__content content">
-                
+
                 <p>Sell Sad Bears.</p>
               </div>
             </div>
