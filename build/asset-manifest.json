@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b1fca94.chunk.css",
-    "main.js": "/static/js/main.b2cf4eee.chunk.js",
-    "main.js.map": "/static/js/main.b2cf4eee.chunk.js.map",
+    "main.css": "/static/css/main.acbe25fb.chunk.css",
+    "main.js": "/static/js/main.af9e106a.chunk.js",
+    "main.js.map": "/static/js/main.af9e106a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.16b44cf8.js",
     "runtime-main.js.map": "/static/js/runtime-main.16b44cf8.js.map",
     "static/js/2.4ae1f8ba.chunk.js": "/static/js/2.4ae1f8ba.chunk.js",
     "static/js/2.4ae1f8ba.chunk.js.map": "/static/js/2.4ae1f8ba.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1b1fca94.chunk.css.map": "/static/css/main.1b1fca94.chunk.css.map",
+    "static/css/main.acbe25fb.chunk.css.map": "/static/css/main.acbe25fb.chunk.css.map",
     "static/js/2.4ae1f8ba.chunk.js.LICENSE.txt": "/static/js/2.4ae1f8ba.chunk.js.LICENSE.txt",
     "static/media/Background_Green Blots.b645738d.gif": "/static/media/Background_Green Blots.b645738d.gif",
     "static/media/Background_Red Blots.19692d5c.gif": "/static/media/Background_Red Blots.19692d5c.gif",
@@ -62,7 +62,7 @@
   "entrypoints": [
     "static/js/runtime-main.16b44cf8.js",
     "static/js/2.4ae1f8ba.chunk.js",
-    "static/css/main.1b1fca94.chunk.css",
-    "static/js/main.b2cf4eee.chunk.js"
+    "static/css/main.acbe25fb.chunk.css",
+    "static/js/main.af9e106a.chunk.js"
   ]
 }

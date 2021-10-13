@@ -4,7 +4,7 @@ import Product from '../Components/Product/Product';
 
 
 export const ProductPage = () => (
-  <main className="jacks">
+  <main>
     <Header />
     <Product />
   </main>
