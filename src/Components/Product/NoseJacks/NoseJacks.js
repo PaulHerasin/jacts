@@ -8,6 +8,8 @@ import Candy from './Nose_Candy.gif'
 import Cartoon from './Nose_Cartoon.gif'
 import Cat from './Nose_Cat.gif'
 import Clover from './Nose_Clover.gif'
+import Clubs from './Nose_Clubs.gif'
+import Cone from './Nose_Cone.gif'
 import Diamonds from './Nose_Diamonds.gif'
 import Dog from './Nose_Dog.gif'
 import EvilNostrils from './Nose_Evil Nostrils.gif'
@@ -73,69 +75,15 @@ export const NoseJacks = () => (
                 </div>
               </div>
               <div className="product__item">
-                <div className="product__item-title">Blot</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Blot} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Button</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Button} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Candy</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Candy} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Cartoon</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Cartoon} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Cat</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Cat} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
                 <div className="product__item-title">Clover</div>
                 <div className="product__item-img img-wrap">
                   <div><img src={Clover} alt="" /></div>
                 </div>
               </div>
               <div className="product__item">
-                <div className="product__item-title">Diamonds</div>
+                <div className="product__item-title">Cone</div>
                 <div className="product__item-img img-wrap">
-                  <div><img src={Diamonds} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Dog</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Dog} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">EvilNostrils</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={EvilNostrils} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">HeartsNostrils</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={HeartsNostrils} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Hearts</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Hearts} alt="" /></div>
+                  <div><img src={Cone} alt="" /></div>
                 </div>
               </div>
               <div className="product__item">
@@ -151,33 +99,9 @@ export const NoseJacks = () => (
                 </div>
               </div>
               <div className="product__item">
-                <div className="product__item-title">Keyhole</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Keyhole} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Mandalorian</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Mandalorian} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Minus</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Minus} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
                 <div className="product__item-title">Moon</div>
                 <div className="product__item-img img-wrap">
                   <div><img src={Moon} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Narrow Nostrils</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={NarrowNostrils} alt="" /></div>
                 </div>
               </div>
               <div className="product__item">
@@ -187,39 +111,9 @@ export const NoseJacks = () => (
                 </div>
               </div>
               <div className="product__item">
-                <div className="product__item-title">Pause</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Pause} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Piercing</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Piercing} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
                 <div className="product__item-title">Pixels</div>
                 <div className="product__item-img img-wrap">
                   <div><img src={Pixels} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Play Pause</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={PlayPause} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Play</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Play} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Power Button</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={PowerButton} alt="" /></div>
                 </div>
               </div>
               <div className="product__item">
@@ -253,6 +147,153 @@ export const NoseJacks = () => (
                 </div>
               </div>
               <div className="product__item">
+                <div className="product__item-title">StrangeHeart</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={StrangeHeart} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Triangle</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Triangle} alt="" /></div>
+                </div>
+              </div>
+
+              <div className="product__item">
+                <div className="product__item-title">UpArrow</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={UpArrow} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Vendetta</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Vendetta} alt="" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product__body-box">
+          <div className="product__body-subtitle">Uncommon</div>
+          <div className="product__body-scroll">
+            <div className="product__body-list">
+              <div className="product__item">
+                <div className="product__item-title">Blot</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Blot} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Cartoon</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Cartoon} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Cat</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Cat} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Dog</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Dog} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Evil Nostrils</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={EvilNostrils} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Mandalorian</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Mandalorian} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Minus</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Minus} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Narrow Nostrils</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={NarrowNostrils} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Play</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Play} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">U</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={U} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">WormHole</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={WormHole} alt="" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product__body-box">
+          <div className="product__body-subtitle">Rare</div>
+          <div className="product__body-scroll">
+            <div className="product__body-list">
+              <div className="product__item">
+                <div className="product__item-title">Clubs</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Clubs} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Diamonds</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Diamonds} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Hearts Nostrils</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={HeartsNostrils} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Hearts</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Hearts} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Pause</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Pause} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Play Pause</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={PlayPause} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Power Button</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={PowerButton} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
                 <div className="product__item-title">Snotty</div>
                 <div className="product__item-img img-wrap">
                   <div><img src={Snotty} alt="" /></div>
@@ -270,6 +311,37 @@ export const NoseJacks = () => (
                   <div><img src={StarNostrils} alt="" /></div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="product__body-box">
+          <div className="product__body-subtitle">Mythic</div>
+          <div className="product__body-scroll">
+            <div className="product__body-list">
+              <div className="product__item">
+                <div className="product__item-title">Button</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Button} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Candy</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Candy} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Keyhole</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Keyhole} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Piercing</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Piercing} alt="" /></div>
+                </div>
+              </div>
               <div className="product__item">
                 <div className="product__item-title">Sticky Candy</div>
                 <div className="product__item-img img-wrap">
@@ -280,42 +352,6 @@ export const NoseJacks = () => (
                 <div className="product__item-title">Sticky Lollipop</div>
                 <div className="product__item-img img-wrap">
                   <div><img src={StickyLollipop} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">StrangeHeart</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={StrangeHeart} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Triangle</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Triangle} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">U</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={U} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">UpArrow</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={UpArrow} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Vendetta</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Vendetta} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">WormHole</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={WormHole} alt="" /></div>
                 </div>
               </div>
             </div>

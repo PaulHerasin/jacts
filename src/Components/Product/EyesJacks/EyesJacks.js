@@ -1,5 +1,6 @@
 import React from 'react';
 import Alien from './Eyes_Alien.gif'
+import Big from './Eyes_Big.gif'
 import Bewildered from './Eyes_Bewildered.gif'
 import Bookworm from './Eyes_Bookworm.gif'
 import Buttons from './Eyes_Buttons.gif'
@@ -24,6 +25,7 @@ import HappyU from './Eyes_Happy U.gif'
 import HappyV from './Eyes_Happy V.gif'
 import Hypnosis from './Eyes_Hypnosis.gif'
 import JackEyes from './Eyes_Jack Eyes.gif'
+import Kind from './Eyes_Kind.gif'
 import Little from './Eyes_Little.gif'
 import Loving from './Eyes_Loving.gif'
 import Monster from './Eyes_Monster.gif'
@@ -56,45 +58,9 @@ export const EyesJacks = () => (
           <div className="product__body-scroll">
             <div className="product__body-list">
               <div className="product__item">
-                <div className="product__item-title">Alien</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Alien} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
                 <div className="product__item-title">Bewildered</div>
                 <div className="product__item-img img-wrap">
                   <div><img src={Bewildered} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Bookworm</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Bookworm} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Buttons</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Buttons} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Creepy</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Creepy} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Crosses</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Crosses} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Cry</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Cry} alt="" /></div>
                 </div>
               </div>
               <div className="product__item">
@@ -104,39 +70,9 @@ export const EyesJacks = () => (
                 </div>
               </div>
               <div className="product__item">
-                <div className="product__item-title">Cyclops</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Cyclops} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
                 <div className="product__item-title">Died</div>
                 <div className="product__item-img img-wrap">
                   <div><img src={Died} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Disapproving</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Disapproving} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Disgruntled</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Disgruntled} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Disgust</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Disgust} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Dread</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Dread} alt="" /></div>
                 </div>
               </div>
               <div className="product__item">
@@ -152,27 +88,100 @@ export const EyesJacks = () => (
                 </div>
               </div>
               <div className="product__item">
-                <div className="product__item-title">Evil Squint</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={EvilSquint} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Evil</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Evil} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
                 <div className="product__item-title">Focused</div>
                 <div className="product__item-img img-wrap">
                   <div><img src={Focused} alt="" /></div>
                 </div>
               </div>
               <div className="product__item">
-                <div className="product__item-title">Frowning Eyebrows</div>
+                <div className="product__item-title">Jack Eyes</div>
                 <div className="product__item-img img-wrap">
-                  <div><img src={FrowningEyebrows} alt="" /></div>
+                  <div><img src={JackEyes} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Kind</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Kind} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Little</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Little} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Nice</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Nice} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Open Glaze</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={OpenGlaze} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Sad Jack</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={SadJack} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Skeptical</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Skeptical} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Square</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Square} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Surprised</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Surprised} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Tired</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Tired} alt="" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product__body-box">
+          <div className="product__body-subtitle">Uncommon</div>
+          <div className="product__body-scroll">
+            <div className="product__body-list">
+              <div className="product__item">
+                <div className="product__item-title">Big</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Big} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Crosses</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Crosses} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Disgruntled</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Disgruntled} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Dread</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Dread} alt="" /></div>
                 </div>
               </div>
               <div className="product__item">
@@ -194,24 +203,6 @@ export const EyesJacks = () => (
                 </div>
               </div>
               <div className="product__item">
-                <div className="product__item-title">Hypnosis</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Hypnosis} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Jack Eyes</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={JackEyes} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Little</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Little} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
                 <div className="product__item-title">Loving</div>
                 <div className="product__item-img img-wrap">
                   <div><img src={Loving} alt="" /></div>
@@ -224,75 +215,15 @@ export const EyesJacks = () => (
                 </div>
               </div>
               <div className="product__item">
-                <div className="product__item-title">Mystical</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Mystical} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Nice</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Nice} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Open Glaze</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={OpenGlaze} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
                 <div className="product__item-title">Pacifying</div>
                 <div className="product__item-img img-wrap">
                   <div><img src={Pacifying} alt="" /></div>
                 </div>
               </div>
               <div className="product__item">
-                <div className="product__item-title">Potter</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Potter} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Sad Jack</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={SadJack} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Scary Cat</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={ScaryCat} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Skeptical</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Skeptical} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
                 <div className="product__item-title">Sleepy</div>
                 <div className="product__item-img img-wrap">
                   <div><img src={Sleepy} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Sonic</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Sonic} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Spider Eyes</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={SpiderEyes} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Square</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Square} alt="" /></div>
                 </div>
               </div>
               <div className="product__item">
@@ -308,18 +239,6 @@ export const EyesJacks = () => (
                 </div>
               </div>
               <div className="product__item">
-                <div className="product__item-title">Surprised</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Surprised} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
-                <div className="product__item-title">Tired</div>
-                <div className="product__item-img img-wrap">
-                  <div><img src={Tired} alt="" /></div>
-                </div>
-              </div>
-              <div className="product__item">
                 <div className="product__item-title">Upset</div>
                 <div className="product__item-img img-wrap">
                   <div><img src={Upset} alt="" /></div>
@@ -329,6 +248,122 @@ export const EyesJacks = () => (
                 <div className="product__item-title">Wormhole</div>
                 <div className="product__item-img img-wrap">
                   <div><img src={Wormhole} alt="" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product__body-box">
+          <div className="product__body-subtitle">Rare</div>
+          <div className="product__body-scroll">
+            <div className="product__body-list">
+              <div className="product__item">
+                <div className="product__item-title">Creepy</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Creepy} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Cry</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Cry} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Cyclops</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Cyclops} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Disapproving</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Disapproving} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Disgust</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Disgust} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Evil Squint</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={EvilSquint} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Evil</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Evil} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Hypnosis</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Hypnosis} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Mystical</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Mystical} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Scary Cat</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={ScaryCat} alt="" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="product__body-box">
+          <div className="product__body-subtitle">Mythic</div>
+          <div className="product__body-scroll">
+            <div className="product__body-list">
+              <div className="product__item">
+                <div className="product__item-title">Alien</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Alien} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Bookworm</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Bookworm} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Buttons</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Buttons} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Frowning Eyebrows</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={FrowningEyebrows} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Potter</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Potter} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Sonic</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={Sonic} alt="" /></div>
+                </div>
+              </div>
+              <div className="product__item">
+                <div className="product__item-title">Spider Eyes</div>
+                <div className="product__item-img img-wrap">
+                  <div><img src={SpiderEyes} alt="" /></div>
                 </div>
               </div>
             </div>
