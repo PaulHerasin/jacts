@@ -14,7 +14,8 @@ export const MainScreen = () => {
               <h1 className="main-screen__title">PUMPKIN JACKS</h1>
               <div className="main-screen__content content">
                 <p>These Pumpkin Jacks are part of the
-                  <a target="_blank" rel="noopener noreferrer" href="https://www.sadbearsnft.com/"> Sad Bear 12-week giveaway.</a>
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.sadbearsnft.com/"> Sad Bear 12-week giveaway. </a>
+                  The Sad Bears needed a pick me up, so we are releasing this special collection of Halloween jack-o'lanterns (better late than never). The jacks will be airdropped to wallets holding Sad Bears. The more Sad Bears in a wallet, the higher the chance of receiving a pumpkin jack. The only way to get airdropped a free pumpkin is to own a Sad Bear.
                 </p>
               </div>
               {/* <Link to="/product" className="main-screen__btn btn">Connect your wallet</Link> */}

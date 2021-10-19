@@ -11,7 +11,7 @@ export const Home = () => (
   <main>
     <Header />
     <MainScreen />
-    <About />
+    {/* <About /> */}
     <Rarity />
     <Roadmap />
     <Team />

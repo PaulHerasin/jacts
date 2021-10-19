@@ -56,7 +56,7 @@ export const Team = () => (
               <p>Mouth:<strong>Shirty Grin 1% </strong></p>
             </div>
           </div>
-          <div className="team__item">
+          {/* <div className="team__item">
             <div className="team__img-wrap img-wrap">
               <div><img src={teamImg4} alt="" /></div>
             </div>
@@ -69,8 +69,8 @@ export const Team = () => (
               <p>Nose:<strong>Power Button 0.95%</strong> </p>
               <p>Mouth:<strong>Great Disappointment 3.5%</strong></p>
             </div>
-          </div>
-          <div className="team__item">
+          </div> */}
+          {/* <div className="team__item">
             <div className="team__img-wrap img-wrap">
               <div><img src={teamImg5} alt="" /></div>
             </div>
@@ -83,10 +83,10 @@ export const Team = () => (
               <p>Nose:<strong>Keyhole 0.2%</strong> </p>
               <p>Mouth:<strong>Joyful Child 3.5%</strong></p>
             </div>
-          </div>
+          </div> */}
+          {/* <div className="team__item team__item--hide"></div>
           <div className="team__item team__item--hide"></div>
-          <div className="team__item team__item--hide"></div>
-          <div className="team__item team__item--hide"></div>
+          <div className="team__item team__item--hide"></div> */}
         </div>
       </div>
     </div>

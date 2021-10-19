@@ -31,12 +31,13 @@
 
 	&__list {
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		flex-wrap: wrap;
 		margin-bottom: -5.5rem;
 
 		@media screen and (max-width: $large_tablet) {
 			margin-bottom: -3rem;
+			justify-content: space-between;
 		}
 	}
 
@@ -46,11 +47,17 @@
 		background: #1c172d;
 		border-radius: 16px;
 		padding: 2.5rem 3.5rem 7rem;
+		margin-right: 3rem;
+
+		&:last-of-type {
+			margin-right: 0;
+		}
 
 		@media screen and (max-width: $large_tablet) {
 			width: calc((100% - 3rem * 1) / 2);
 			padding: 2rem 2rem 3.5rem;
 			margin-bottom: 3rem;
+			margin-right: 0;
 		}
 
 		&-title {

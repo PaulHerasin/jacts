@@ -15,7 +15,13 @@ const Rarity = () => (
           <h2 className="rarity__simple-title simple-title">Every pumpkin is unique</h2>
           <div className="rarity__content content">
             <p>Our jack-o’-lanterns are generated from 202 unique traits in 6 categories, resulting in over 280 million unique pumpkins</p>
-            <p>Try our rarity <Link smooth to="/product"> trait explorer! </Link></p>
+            <p>Try our rarity trait explorer!
+              <br></br>
+              Scroll through our <Link smooth to="/product"> chart </Link> of expected rarities.
+            </p>
+            {/* <p>
+              Scroll through our <a href="/" >chart</a> of expected rarities.
+            </p> */}
           </div>
         </div>
         <div className="rarity__right img-wrap">

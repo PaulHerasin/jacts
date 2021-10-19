@@ -1,11 +1,12 @@
 @import '../../Styles/vars.scss';
 
 .rarity {
-	padding: 17rem 0;
+	padding: 14rem 0;
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin-top: -3rem;
+	// margin-top: -3rem;
 	position: relative;
+	background-color: #140c2f;
 
 	@media screen and (max-width: $large_tablet) {
 		padding: 11rem 0 8rem;

@@ -3,7 +3,7 @@
 .main-screen {
 	background-color: #140c2f;
 	padding-top: 21.5rem;
-	padding-bottom: 31rem;
+	padding-bottom: 20rem;
 	position: relative;
 
 	@media screen and (max-width: $large_tablet) {
@@ -43,7 +43,7 @@
 	}
 
 	&__left {
-		max-width: 44rem;
+		max-width: 55rem;
 		width: 100%;
 
 		@media screen and (max-width: $large_mobile) {
@@ -74,7 +74,6 @@
 		font-weight: 300;
 		font-size: 2rem;
 		line-height: 140%;
-		max-width: 35rem;
 		width: 100%;
 		margin-bottom: 4rem;
 

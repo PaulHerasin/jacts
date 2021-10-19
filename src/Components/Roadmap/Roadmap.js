@@ -18,7 +18,6 @@ export const Roadmap = () => (
             <div className="roadmap__item roadmap__item--img">
               <div className="roadmap__number">01<span></span></div>
               <div className="roadmap__content content">
-
                 <p>Sell Sad Bears.</p>
               </div>
             </div>
@@ -31,10 +30,10 @@ export const Roadmap = () => (
             <div className="roadmap__item">
               <div className="roadmap__number">03<span></span></div>
               <div className="roadmap__content content">
-                <p>Airdrop free jack-o’-lanterns to all holders of a Sad Bear.</p>
+                <p>Randomly airdrop free jack-o’-lanterns to holders of Sad Bears. Each Sad Bear increases chances of receiving a jack.</p>
               </div>
             </div>
-            <div className="roadmap__item">
+            {/* <div className="roadmap__item">
               <div className="roadmap__number">04<span></span></div>
               <div className="roadmap__content content">
                 <p>Limited number of jack-o’-lanterns on sale for those who plan to make pumpkin pie</p>
@@ -57,7 +56,7 @@ export const Roadmap = () => (
               <div className="roadmap__content content">
                 <p>Limited number of generative pumpkin pies on sale for those who overeat on Thanksgiving.</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
